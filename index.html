@@ -29,13 +29,6 @@
 <body>
 
 
-  
-
-
-  <audio class="audio" src="./musica/" controls>
-  </audio>
-  
-
 
 
   <div>
@@ -47,10 +40,18 @@
 <p class="slide">faltan...</p>
 
 
+<h1 class="musica">¡Vivir esta experiencia con<br> música es mejor! <br>Dale play</h1>
+<br><br>
+<div class="caja-audio">
+ 
+    <br>
+    <audio class="audio" controls autoplay>
+      <source src="./">
+    </audio>
+</div>
 
 
 
-  <button class="click" id="botonn"><span class="melodia">❚❚</span></button>
  
 
 
@@ -108,7 +109,7 @@
 
 
 <img class="fondo" src="./IMAGENES/FONDO.jpg" alt="">
-
+<img class="fondo" src="./IMAGENES/FONDO.jpg" alt="">
 <section class="seccion-fiesta">
   <h2 class="fiesta">La Fiesta</h2>
   <img class="copas" src="./IMAGENES/FIESTA.png" alt="">
@@ -127,6 +128,98 @@ Vial Argentina Eventos  <br>
 
 
 
+<section class="seccion-regalo">
+  <h2 class="fiestaregalo">Regalo</h2>
+  <img class="regalo" src="./IMAGENES/REGALO.png" alt="">
+  
+  <p class="parrafo3">  <br> Tu presencia es lo <br> más importante <br> pero si decidis 
+    hacerme <br> un regalo podes hacerlo acá   </p>
+
+ 
+<button class="click2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+ Regalo
+ </button>
+</p>
+
+</div>
+
+
+<div class="collapse" id="collapseExample">
+<div class="card card-body">
+ <p class="parrafoDe">
+<br>
+
+CBU: 
+<br>
+
+</div>
+</div>
+  
+</section>
+
+
+    <p class="fiesta"> ¿Venís?</p> 
+    <img class="tilde" src="./IMAGENES/tilde.jpg" alt="">
+          <p class="parrafodos">Te agradezco que me <br> confirmes 
+            tu asistencia <br> para agregarte a mi lista <br> de invitados. 
+            <br>Tiempo para confirmar ---</p> 
+
+
+             <a class="a" href="https://wa.me/5492262246459" target="_blank">
+              <img class="chat" src="./IMAGENES/whatsapp.png""></a>
+          
+              
+           <br>
+
+
+  <a class="ados" href="https://wa.me/+549" target="_blank">
+  <br>
+  <img class="chat" src="./imagenes/whatsap.png" alt="">
+</a>
+ <img class="gian" src="./imagenes/GIAN.png" alt="">
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="./imagenes/Wedding Thank You Card Photo (1).png">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/Wedding Thank You Card Photo.png">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<img class="fondo" src="./IMAGENES/FONDO.jpg" alt="">
+
+<div class="cajavestimenta">
+  <p class="vestimenta"> Vestimenta</p> 
+    <img class="tilde" src="./IMAGENES/percha-de-ropa.png" alt="">
+          <p class="parrafodos">Elegante Sport</p> 
+</div>
+  
+
+
+
+   <p class="teespero"> ¡Te espero!</p> 
+   <img class="gian" src="./IMAGENES/GIAN.png" alt="">
+   <img class="cuadro" src="./IMAGENES/claypole.png" alt="">
+
+  <img class="pelota" src="./IMAGENES/pelota.gif" alt="">
+
+  <img class="pelota2" src="./IMAGENES/pelota.gif" alt="">
+
+
+
 
   <script>
     window.addEventListener('load', () => {
@@ -137,39 +230,6 @@ Vial Argentina Eventos  <br>
 
 
 
-
-<script type="text/javascript">
- 
-var v = document.getElementsByTagName("audio")[0];
- 
-var sound = false;
- 
-var botonn = document.getElementById("botonn");
- 
-botonn.addEventListener("musica", function(){
- 
-if (!sound) {
- 
-v.play();
- 
-this.innerHTML = "♬";
- 
-sound = true;
- 
-} else {
- 
-v.pause();
- 
-this.innerHTML = "▼";
- 
-sound = false;
- 
-}
- 
-});
- 
-</script>
-  
 
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
